@@ -1,12 +1,5 @@
 package cn.e3mall.content.service.impl;
 
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
 import cn.e3mall.common.pojo.EasyUITreeNode;
 import cn.e3mall.common.utils.E3Result;
 import cn.e3mall.content.service.ContentCategoryService;
@@ -14,6 +7,12 @@ import cn.e3mall.mapper.TbContentCategoryMapper;
 import cn.e3mall.pojo.TbContentCategory;
 import cn.e3mall.pojo.TbContentCategoryExample;
 import cn.e3mall.pojo.TbContentCategoryExample.Criteria;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
 
 /**
  * 内容分类管理Service
@@ -22,7 +21,7 @@ import cn.e3mall.pojo.TbContentCategoryExample.Criteria;
  * <p>Company: www.itcast.cn</p> 
  * @version 1.0
  */
-@Service
+@Service("contentCategoryService")
 public class ContentCategoryServiceImpl implements ContentCategoryService {
 
 	@Autowired

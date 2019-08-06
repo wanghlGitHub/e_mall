@@ -1,17 +1,16 @@
 package cn.e3mall.service.impl;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
 import cn.e3mall.common.pojo.EasyUITreeNode;
 import cn.e3mall.mapper.TbItemCatMapper;
 import cn.e3mall.pojo.TbItemCat;
 import cn.e3mall.pojo.TbItemCatExample;
 import cn.e3mall.pojo.TbItemCatExample.Criteria;
 import cn.e3mall.service.ItemCatService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * 商品分类管理
@@ -20,7 +19,7 @@ import cn.e3mall.service.ItemCatService;
  * <p>Company: www.itcast.cn</p> 
  * @version 1.0
  */
-@Service
+@Service("itemCatService")
 public class ItemCatServiceImpl implements ItemCatService {
 
 	@Autowired

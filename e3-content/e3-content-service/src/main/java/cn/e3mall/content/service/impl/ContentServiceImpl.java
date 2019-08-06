@@ -1,13 +1,5 @@
 package cn.e3mall.content.service.impl;
 
-import java.util.Date;
-import java.util.List;
-
-import org.apache.commons.lang3.StringUtils;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Service;
-
 import cn.e3mall.common.jedis.JedisClient;
 import cn.e3mall.common.utils.E3Result;
 import cn.e3mall.common.utils.JsonUtils;
@@ -16,6 +8,13 @@ import cn.e3mall.mapper.TbContentMapper;
 import cn.e3mall.pojo.TbContent;
 import cn.e3mall.pojo.TbContentExample;
 import cn.e3mall.pojo.TbContentExample.Criteria;
+import org.apache.commons.lang3.StringUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
+
+import java.util.Date;
+import java.util.List;
 
 /**
  * 内容管理Service
@@ -24,7 +23,7 @@ import cn.e3mall.pojo.TbContentExample.Criteria;
  * <p>Company: www.itcast.cn</p> 
  * @version 1.0
  */
-@Service
+@Service("contentService")
 public class ContentServiceImpl implements ContentService {
 
 	@Autowired
