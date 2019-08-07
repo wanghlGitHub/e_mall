@@ -15,7 +15,7 @@ import cn.e3mall.search.service.SearchService;
  * <p>Company: www.itcast.cn</p> 
  * @version 1.0
  */
-@Service
+@Service("searchService")
 public class SearchServiceImpl implements SearchService {
 	
 	@Autowired

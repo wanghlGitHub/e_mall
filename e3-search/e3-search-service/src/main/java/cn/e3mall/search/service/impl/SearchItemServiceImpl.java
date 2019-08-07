@@ -1,16 +1,15 @@
 package cn.e3mall.search.service.impl;
 
-import java.util.List;
-
+import cn.e3mall.common.pojo.SearchItem;
+import cn.e3mall.common.utils.E3Result;
+import cn.e3mall.search.mapper.ItemMapper;
+import cn.e3mall.search.service.SearchItemService;
 import org.apache.solr.client.solrj.SolrServer;
 import org.apache.solr.common.SolrInputDocument;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import cn.e3mall.common.pojo.SearchItem;
-import cn.e3mall.common.utils.E3Result;
-import cn.e3mall.search.mapper.ItemMapper;
-import cn.e3mall.search.service.SearchItemService;
+import java.util.List;
 
 /**
  * 索引库维护Service
@@ -19,7 +18,7 @@ import cn.e3mall.search.service.SearchItemService;
  * <p>Company: www.itcast.cn</p> 
  * @version 1.0
  */
-@Service
+@Service("searchItemService")
 public class SearchItemServiceImpl implements SearchItemService {
 
 	@Autowired
