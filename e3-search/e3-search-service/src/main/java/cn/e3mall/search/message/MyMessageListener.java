@@ -15,7 +15,6 @@ public class MyMessageListener implements MessageListener {
 			String text = textMessage.getText();
 			System.out.println(text);
 		} catch (JMSException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		

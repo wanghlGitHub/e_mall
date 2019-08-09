@@ -2,8 +2,9 @@ package cn.e3mall.mapper;
 
 import cn.e3mall.pojo.TbItem;
 import cn.e3mall.pojo.TbItemExample;
-import java.util.List;
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface TbItemMapper {
     int countByExample(TbItemExample example);
@@ -17,6 +18,8 @@ public interface TbItemMapper {
     int insertSelective(TbItem record);
 
     List<TbItem> selectByExample(TbItemExample example);
+
+    String select1();
 
     TbItem selectByPrimaryKey(Long id);
 
