@@ -1,11 +1,15 @@
 package cn.e3mall.pagehelper;
 
 import cn.e3mall.mapper.TbItemMapper;
+import cn.e3mall.pojo.TbItem;
 import cn.e3mall.pojo.TbItemExample;
 import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import java.util.List;
 
 public class PageHelperTest {
 
@@ -20,16 +24,12 @@ public class PageHelperTest {
 		//执行查询
 		TbItemExample example = new TbItemExample();
 		try{
-			String str = itemMapper.select1();
-			System.out.println(str);
-
-
-//			List<TbItem> list = itemMapper.selectByExample(example);
-//			//取分页信息，PageInfo。1、总记录数2、总页数 。当前页码
-//			PageInfo<TbItem> pageInfo = new PageInfo<>(list);
-//			System.out.println(pageInfo.getTotal());
-//			System.out.println(pageInfo.getPages());
-//			System.out.println(list.size());
+			List<TbItem> list = itemMapper.selectByExample(example);
+			//取分页信息，PageInfo。1、总记录数2、总页数 。当前页码
+			PageInfo<TbItem> pageInfo = new PageInfo<>(list);
+			System.out.println(pageInfo.getTotal());
+			System.out.println(pageInfo.getPages());
+			System.out.println(list.size());
 		}catch(Exception e){
 			e.printStackTrace();
 		}
