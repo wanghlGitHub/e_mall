@@ -6,9 +6,9 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta http-equiv="Cache-Control" content="no-transform">
 <meta http-equiv="Cache-Control" content="no-siteapp">
-    <title>宜立方商城-宜立方旗下全球美食优选网购商城-进口食品、母婴、营养保健品、生鲜、粮油、酒水饮料、休闲食品-宜立方商城e3mall.cn</title>
-    <meta name="Keywords" content="进口食品,网上超市,网上购物,进口奶粉,宜立方商城,sfbest,母婴用品,营养保健品,生鲜食品,粮油,酒水,休闲食品">
-    <meta name="Description" content="宜立方商城宜立方旗下全球美食优选网购商城，精选来自60多个国家和地区的进口食品，正品行货，支持货到付款。销售包括进口奶粉、母婴用品、营养保健品、生鲜食品、粮油、酒水、休闲食品等近万种商品。">
+    <title>星愿花店商城-星愿花店旗下全球美食优选网购商城-进口食品、母婴、营养保健品、生鲜、粮油、酒水饮料、休闲食品-星愿花店商城e3mall.cn</title>
+    <meta name="Keywords" content="进口食品,网上超市,网上购物,进口奶粉,星愿花店商城,sfbest,母婴用品,营养保健品,生鲜食品,粮油,酒水,休闲食品">
+    <meta name="Description" content="星愿花店商城星愿花店旗下全球美食优选网购商城，精选来自60多个国家和地区的进口食品，正品行货，支持货到付款。销售包括进口奶粉、母婴用品、营养保健品、生鲜食品、粮油、酒水、休闲食品等近万种商品。">
     <link rel="dns-prefetch" href="//pic.e3mall.cn">
     <meta property="wb:webmaster" content="3a008ad947166307">
     <link rel="stylesheet" type="text/css" href="/css/base_w1200.css?v=2016071333">
@@ -41,13 +41,13 @@
 		<ol>
 			<c:forEach items="${ad1List}" var="node" varStatus="status">
 			<li>
-			  <a name="sfbest_hp_hp_focus_${status.index }" class="fore_pic trackref" href="${node.url }" target="_blank"> 
+			  <a name="sfbest_hp_hp_focus_${status.index }" class="fore_pic trackref" href="${node.url }" target="_blank">
 				<img id="lunbo_1" alt="${node.title }"	src="${node.pic }">
 			  </a>
 			</li>
 			</c:forEach>
 			<!-- <li>
-			  <a name="sfbest_hp_hp_focus_1" class="fore_pic trackref" href="/html/activity/1471934470.html" target="_blank"> 
+			  <a name="sfbest_hp_hp_focus_1" class="fore_pic trackref" href="/html/activity/1471934470.html" target="_blank">
 				<img id="lunbo_1" alt="8.30-9.5 月饼"	src="/images/html/aa472cb9f9624d22d1fcfd1c4dffbe42.jpg">
 			  </a>
 			</li>
@@ -87,8 +87,8 @@
 					src="/images/html/4dd7317569a06a451c1fe7762d6bf928.jpg">
 			</a></li> -->
 		</ol>
-	</div>      
-     <div class="rSide">	
+	</div>
+     <div class="rSide">
 		           <a name="sfbest_hp_hp_focus_right-ad1" class="a-img r-img1 trackref" href="/html/activity/1472440858.html" target="_blank">
           <img alt="8.30-9.5 月饼" src="/images/html/ddf3f66b114f3a3bfbbe0b47693cdbf0.jpg">
           <div class="rmask"></div>
@@ -97,38 +97,30 @@
           <img s="" alt="8.30-9.5" src="/images/html/51e357022c1f826f13211222831a4b13.jpg">
           <div class="rmask"></div>
           </a>
-		  
-		 			
+
+
           <a name="sfbest_hp_hp_focus_right-ad3" class="a-img r-img3 trackref" href="/html/activity/1473011294.html" target="_blank">
           <img alt="9.5中秋菜谱" src="/images/html/838abc2055e36f423701de255bbc9914.jpg">
           <div class="rmask"></div>
           </a>
-		   	  </div>   
+		   	  </div>
  	</div>
       <ul class="none" id="lunboNum">
-      			<c:forEach items="${ad1List }" varStatus="status">
-      			<li class="<c:if test="${status.index==0 }">cur</c:if>">${status.index+1 }</li>
-      			</c:forEach>
-		        <!-- <li class="cur">1</li>
-		        <li class="">2</li>
-		        <li class="">3</li>
-		        <li class="">4</li>
-		        <li class="">5</li>
-		        <li class="">6</li>
-		        <li class="">7</li>
-		        <li class="">8</li> -->
-		      </ul>
+		<c:forEach items="${ad1List }" varStatus="status">
+			<li class="<c:if test="${status.index==0 }">cur</c:if>">${status.index+1 }</li>
+		</c:forEach>
+	  </ul>
       <div class="indexbg" id="indexbg">
-      <dl style="left: -1903px;">
-	        <dd style="width: 1903px; background: rgb(20, 16, 13);"></dd>
-	        <dd style="width: 1903px; background: rgb(119, 96, 86);"></dd>
-	        <dd style="width: 1903px; background: rgb(17, 12, 55);"></dd>
-	        <dd style="width: 1903px; background: rgb(239, 244, 248);"></dd>
-	        <dd style="width: 1903px; background: rgb(231, 32, 37);"></dd>
-	        <dd style="width: 1903px; background: rgb(128, 29, 92);"></dd>
-	        <dd style="width: 1903px; background: rgb(117, 144, 1);"></dd>
-	        <dd style="width: 1903px; background: rgb(253, 213, 29);"></dd>
-	        </dl>
+      	<dl style="left: -1903px;">
+			<dd style="width: 1903px; background: rgb(20, 16, 13);"></dd>
+			<dd style="width: 1903px; background: rgb(119, 96, 86);"></dd>
+			<dd style="width: 1903px; background: rgb(17, 12, 55);"></dd>
+			<dd style="width: 1903px; background: rgb(239, 244, 248);"></dd>
+			<dd style="width: 1903px; background: rgb(231, 32, 37);"></dd>
+			<dd style="width: 1903px; background: rgb(128, 29, 92);"></dd>
+			<dd style="width: 1903px; background: rgb(117, 144, 1);"></dd>
+			<dd style="width: 1903px; background: rgb(253, 213, 29);"></dd>
+		</dl>
       </div>
     </div>
 <!----row1 end------->
@@ -257,14 +249,14 @@
 							<span><sup>￥</sup></span>22.2
 						</div></li>
 				</ul>
-			</div>   
-	<!-- 口碑甄选 end --> 
+			</div>
+	<!-- 口碑甄选 end -->
 	<div class="rSide1">
-			
+
     	<div class="rImg2">
       	<a name="sfbest_hp_hp_news_right-ad" class="trackref" href="/html/activity/1472464260.html" target="_blank"><img salt="9.2-9.5" src="/images/goods/751d2091c008c2a49c1934545730f041.jpg"></a>
    		</div>
-		 
+
         <div class="sfNews">
           <div class="rTitle"><h2>最新动态</h2><a href="/www/173/" target="_blank" class="more">更多&gt;</a></div>
           <ul>
@@ -279,7 +271,7 @@
 	<div class="clr"></div>
 </div>
 <!--楼层 start-->
-<div class="indexW mt2 full_ad" style="width:1190px;padding-left:10px;"><a name="sfbest_hp_hp_banner_1" class="trackref" href="/html/activity/1472461333.html" target="_blank"><img alt="8.30-9.5" class="lazy" 
+<div class="indexW mt2 full_ad" style="width:1190px;padding-left:10px;"><a name="sfbest_hp_hp_banner_1" class="trackref" href="/html/activity/1472461333.html" target="_blank"><img alt="8.30-9.5" class="lazy"
  src="/images/goods/8f42d6d2deead3da7d50c8a702a3c939.jpg" style="display: inline;"></a>
 	 </div>
 <div class="indexW mt2 ie6 fresh">
@@ -501,7 +493,7 @@
 		           </ul>
         <div class="clr"></div>
         <div class="rimg">
-		     
+
           <a name="sfbest_hp_hp_floor1_right-ad" class="ht1 trackref" href="/html/activity/1472547970.html" target="_blank"><img alt="8.30-9.5" class="lazy" data="http://001.sfimg.cn/web/1dd1130a/1dd1130a9c0103f6ec8a13fa13f27641.jpg" src="http://001.sfimg.cn/web/1dd1130a/1dd1130a9c0103f6ec8a13fa13f27641.jpg" style="display: inline;"></a>
           <div class="rbutton"><a href="/html/activity/1472547970.html" target="_blank"></a></div>
 		          </div>

@@ -77,23 +77,18 @@
   </sql>
   <select id="selectByExample" resultMap="BaseResultMap" parameterType="cn.e3mall.pojo.TbItemExample" >
     select
-    <!--<if test="distinct" >-->
-      <!--distinct-->
-    <!--</if>-->
+    <if test="distinct" >
+      distinct
+    </if>
     <include refid="Base_Column_List" />
     from tb_item
-    <!--<if test="_parameter != null" >-->
-      <!--<include refid="Example_Where_Clause" />-->
-    <!--</if>-->
-    <!--<if test="orderByClause != null" >-->
-      <!--order by ${orderByClause}-->
-    <!--</if>-->
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
   </select>
-
-  <select id="select1" resultType="java.lang.String" >
-    select "1" from dual
-  </select>
-
 
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
     select 

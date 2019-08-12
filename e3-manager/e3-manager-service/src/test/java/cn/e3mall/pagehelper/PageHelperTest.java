@@ -24,10 +24,6 @@ public class PageHelperTest {
 		//执行查询
 		TbItemExample example = new TbItemExample();
 		try{
-//			String str = itemMapper.select1();
-//			System.out.println(str);
-
-
 			List<TbItem> list = itemMapper.selectByExample(example);
 			//取分页信息，PageInfo。1、总记录数2、总页数 。当前页码
 			PageInfo<TbItem> pageInfo = new PageInfo<>(list);

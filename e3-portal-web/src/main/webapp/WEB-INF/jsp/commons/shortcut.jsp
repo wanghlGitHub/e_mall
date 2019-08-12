@@ -31,7 +31,7 @@
             <i></i>
             <div class="client-txt">
               <em>扫描我，即可下载</em>
-              <strong>花店商城客户端</strong>
+              <strong>星愿花店商城客户端</strong>
             </div>
           </div>
           <div class="app-btn">
@@ -65,9 +65,9 @@
           <dl>
             <dt class="dh1">商品分类</dt>
             <dd>
-				<a name="sfbest_hp_hp_head_category1" class="trackref" href="/fresh/" target="_blank">鲜花用途</a>
-				<a name="sfbest_hp_hp_head_category2" class="trackref" href="/fresh/" target="_blank">鲜花花材</a>
-				<a name="sfbest_hp_hp_head_category3" class="trackref" href="/fresh/" target="_blank">永生花</a>
+				<a name="sfbest_hp_hp_head_category1" class="trackref" href="/fresh/" target="_blank">肉类海鲜</a>
+				<a name="sfbest_hp_hp_head_category2" class="trackref" href="/fresh/" target="_blank">熟食蛋奶</a>
+				<a name="sfbest_hp_hp_head_category3" class="trackref" href="/fresh/" target="_blank">水果蔬菜</a>
 				<a name="sfbest_hp_hp_head_category4" class="trackref" href="/drinks/4-0-0-0-0-2-0-0-0-0-0.html" target="_blank">酒水饮料</a>
 				<a name="sfbest_hp_hp_head_category5" class="trackref" href="/food/6-0-0-0-0-2-0-0-0-0-0.html" target="_blank">休闲食品</a>
 				<a name="sfbest_hp_hp_head_category6" class="trackref" href="/tea/5-0-0-0-0-2-0-0-0-0-0.html" target="_blank">冲调茶饮</a>
@@ -88,10 +88,10 @@
           </dl>
         </div>
       </li>
-      <li class="d3 tShow"><a name="sfbest_hp_hp_head_weibo" class="trackref" title="关注花店商城微博" href="http://weibo.com/sfbest" rel="nofollow" target="_blank"><q></q></a></li>
+      <li class="d3 tShow"><a name="sfbest_hp_hp_head_weibo" class="trackref" title="关注星愿花店商城微博" href="http://weibo.com/sfbest" rel="nofollow" target="_blank"><q></q></a></li>
       <li class="d4 tShow"><q></q><!--微信-->
          <div class="dd">
-         <div class="sf_wx_t">关注花店商城微信</div>
+         <div class="sf_wx_t">关注星愿花店商城微信</div>
          <div class="sf_wx"></div>
         </div>
         <div class="corner">
