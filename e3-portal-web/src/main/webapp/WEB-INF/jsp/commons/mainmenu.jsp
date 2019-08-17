@@ -624,74 +624,74 @@
               </div>
             </div>
           </div>
-          <%--<div class="item"> --%>
-          <%--<span class="i-master">--%>
-          <%--<h3 class="dev">--%>
-          <%--<p class="tea"></p>--%>
-          <%--<a class="trackref" href="http://www.e3mall.cn/tea/5-0-0-0-0-2-0-0-0-0-0.html" fro_id="6" target="_blank" name="sfbest_hp_hp_menu_category6-hot0">冲调茶饮</a></h3>--%>
-          <%--<ul class="subCat">--%>
-          <%--<li><a href="http://www.e3mall.cn/tea/168-0-0-0-0-2-0-0-0-0-0.html" name="sfbest_hp_hp_menu_category6-hot1 target=" _blank"="">蜂蜜</a></li>--%>
-          <%--<li><a href="http://www.e3mall.cn/tea/32-0-0-0-0-2-0-0-0-0-0.html" name="sfbest_hp_hp_menu_category6-hot2 target=" _blank"="">咖啡</a></li>--%>
-          <%--<li><a href="http://www.e3mall.cn/tea/170-0-0-0-0-2-0-0-0-0-0.html" name="sfbest_hp_hp_menu_category6-hot3 target=" _blank"="">麦片</a></li>--%>
-          <%--<li><a href="http://www.e3mall.cn/tea/38-0-0-0-0-2-0-0-0-0-0.html" name="sfbest_hp_hp_menu_category6-hot4 target=" _blank"="">茶</a></li>--%>
-          <%--</ul>--%>
-          <%--<s></s> --%>
-          <%--</span>--%>
-          <%--<div class="i-cm">--%>
-          <%--<div class="i-left">--%>
-          <%--<div class="cat-sort">--%>
-          <%--<dl>--%>
-          <%--<dt><strong><a name="sfbest_Uhead_Uhead_menu_category6-1" class="trackref" href="http://www.e3mall.cn/tea/34-0-0-0-0-2-0-0-0-0-0.html">休闲冲饮</a></strong></dt>--%>
-          <%--<dd> --%>
-          <%--<a name="sfbest_Uhead_Uhead_menu_category6-2" class="trackref" href="http://www.e3mall.cn/tea/168-0-0-0-0-2-0-0-0-0-0.html">蜂蜜</a> --%>
-          <%--<a name="sfbest_Uhead_Uhead_menu_category6-3" class="trackref" href="http://www.e3mall.cn/tea/170-0-0-0-0-2-0-0-0-0-0.html">麦片/粥</a>--%>
-          <%--<a name="sfbest_Uhead_Uhead_menu_category6-4" class="trackref" href="http://www.e3mall.cn/tea/165-0-0-0-0-2-0-0-0-0-0.html">蜜炼茶</a>--%>
-          <%--<a name="sfbest_Uhead_Uhead_menu_category6-5" class="trackref" href="http://www.e3mall.cn/tea/164-0-0-0-0-2-0-0-0-0-0.html">巧克力粉</a>--%>
-          <%--<a name="sfbest_Uhead_Uhead_menu_category6-6" class="trackref" href="http://www.e3mall.cn/tea/163-0-0-0-0-2-0-0-0-0-0.html">奶茶</a> --%>
-          <%--<a name="sfbest_Uhead_Uhead_menu_category6-7" class="trackref" href="http://www.e3mall.cn/tea/173-0-0-0-0-2-0-0-0-0-0.html">天然谷物粉</a>--%>
-          <%--<a style="color:#fa6400;" name="sfbest_Uhead_Uhead_menu_category6-8" href="http://www.e3mall.cn/productlist/search?inputBox=1&amp;categoryId=0&amp;keyword=%E9%BA%A6%E5%8D%A2%E5%8D%A1">麦卢卡</a>--%>
-          <%--<a style="color:#fa6400;" name="sfbest_Uhead_Uhead_menu_category6-9" href="http://www.e3mall.cn/productlist/search?inputBox=1&amp;categoryId=0&amp;keyword=%E6%9F%9A%E5%AD%90%E8%8C%B6">柚子茶</a>--%>
-          <%--<a style="color:#fa6400;" name="sfbest_Uhead_Uhead_menu_category6-10" href="http://www.e3mall.cn/productlist/search?inputBox=1&amp;categoryId=0&amp;keyword=%E7%BB%B4%E5%A4%9A%E9%BA%A6">维多麦</a>--%>
-          <%--<a style="color:#fa6400;" name="sfbest_Uhead_Uhead_menu_category6-11" href="http://www.e3mall.cn/productlist/search?inputBox=1&amp;categoryId=0&amp;keyword=%E6%9E%9C%E9%85%B1">果酱/涂抹酱</a>--%>
-          <%--</dd>--%>
-          <%--</dl>--%>
-          <%--<dl>--%>
-          <%--<dt><strong><a name="sfbest_Uhead_Uhead_menu_category6-10" class="trackref" href="http://www.e3mall.cn/tea/32-0-0-0-0-2-0-0-0-0-0.html">咖啡/伴侣</a></strong></dt>--%>
-          <%--<dd> <a name="sfbest_Uhead_Uhead_menu_category6-11" class="trackref" href="http://www.e3mall.cn/tea/159-0-0-0-0-2-0-0-0-0-0.html">速溶咖啡</a>--%>
-          <%--<a name="sfbest_Uhead_Uhead_menu_category6-12" class="trackref" href="http://www.e3mall.cn/tea/160-0-0-0-0-2-0-0-0-0-0.html">咖啡粉/豆</a> --%>
-          <%--<a name="sfbest_Uhead_Uhead_menu_category6-13" class="trackref" href="http://www.e3mall.cn/tea/161-0-0-0-0-2-0-0-0-0-0.html">调糖/伴侣</a>--%>
-          <%--</dd>--%>
-          <%--</dl>--%>
-          <%--<dl>--%>
-          <%--<dt><strong><a name="sfbest_Uhead_Uhead_menu_category6-15" class="trackref" href="http://www.e3mall.cn/tea/37-0-0-0-0-2-0-0-0-0-0.html">进口茶</a></strong></dt>--%>
-          <%--<dd>--%>
-          <%--<a name="sfbest_Uhead_Uhead_menu_category6-16" class="trackref" href="http://www.e3mall.cn/tea/179-0-0-0-0-2-0-0-0-0-0.html">红茶</a>--%>
-          <%--<a name="sfbest_Uhead_Uhead_menu_category6-17" class="trackref" href="http://www.e3mall.cn/tea/180-0-0-0-0-2-0-0-0-0-0.html">花茶/果茶</a>--%>
-          <%--<a name="sfbest_Uhead_Uhead_menu_category6-18" class="trackref" href="http://www.e3mall.cn/tea/181-0-0-0-0-2-0-0-0-0-0.html">其他进口茶</a>--%>
-          <%--<a style="color:#fa6400;" name="sfbest_Uhead_Uhead_menu_category6-19" class="trackref" href="http://www.e3mall.cn/productlist/search?inputBox=1&amp;categoryId=0&amp;keyword=%E6%96%AF%E9%87%8C%E5%85%B0%E5%8D%A1">斯里兰卡</a>--%>
-          <%--</dd>--%>
-          <%--</dl>--%>
-          <%--<dl>--%>
-          <%--<dt><strong><a name="sfbest_Uhead_Uhead_menu_category6-20" class="trackref" href="http://www.e3mall.cn/tea/38-0-0-0-0-2-0-0-0-0-0.html">国产茗茶</a></strong></dt>--%>
-          <%--<dd> --%>
-          <%--<a name="sfbest_Uhead_Uhead_menu_category6-21" class="trackref" href="http://www.e3mall.cn/tea/376-0-0-0-0-2-0-0-0-0-0.html">绿茶</a> --%>
-          <%--<a name="sfbest_Uhead_Uhead_menu_category6-22" class="trackref" href="http://www.e3mall.cn/tea/375-0-0-0-0-2-0-0-0-0-0.html">红茶</a> --%>
-          <%--<a name="sfbest_Uhead_Uhead_menu_category6-23" class="trackref" href="http://www.e3mall.cn/tea/478-0-0-0-0-2-0-0-0-0-0.html">白茶</a> --%>
-          <%--<a name="sfbest_Uhead_Uhead_menu_category6-24" class="trackref" href="http://www.e3mall.cn/tea/377-0-0-0-0-2-0-0-0-0-0.html">乌龙茶</a> --%>
-          <%--<a name="sfbest_Uhead_Uhead_menu_category6-25" class="trackref" href="http://www.e3mall.cn/tea/378-0-0-0-0-2-0-0-0-0-0.html">黑茶/普洱茶</a> --%>
-          <%--<a name="sfbest_Uhead_Uhead_menu_category6-26" class="trackref" href="http://www.e3mall.cn/tea/437-0-0-0-0-2-0-0-0-0-0.html">花草茶/果茶</a> --%>
-          <%--<a name="sfbest_Uhead_Uhead_menu_category6-27" class="trackref" href="http://www.e3mall.cn/tea/379-0-0-0-0-2-0-0-0-0-0.html">其他国产茗茶</a>--%>
-          <%--<a style="color:#fa6400;" name="sfbest_Uhead_Uhead_menu_category6-28" class="trackref" href="http://www.e3mall.cn/productlist/search?inputBox=1&amp;categoryId=0&amp;keyword=%E9%93%81%E8%A7%82%E9%9F%B3">铁观音</a>--%>
-          <%--<a style="color:#fa6400;" name="sfbest_Uhead_Uhead_menu_category6-29" class="trackref" href="http://www.e3mall.cn/productlist/search?inputBox=1&amp;categoryId=0&amp;keyword=%E5%A4%A7%E7%BA%A2%E8%A2%8D">大红袍</a>--%>
-          <%--</dd>--%>
-          <%--</dl>--%>
-          <%--</div>--%>
-          <%--<a name="sfbest_Uhead_Uhead_menu_category6-banner" class="trackref" href="http://www.e3mall.cn/html/activity/1472106644.html" target="_blank">--%>
-          <%--<div class="i-img"><img src="/images/html/1472521203.jpg"></div>--%>
-          <%--</a> </div>--%>
-          <%--<div class="i-right"> <span onclick="$('.item').removeClass('hover')" class="i-close"></span> </div>--%>
-          <%--</div>--%>
-          <%--</div>--%>
+          <div class="item">
+          <span class="i-master">
+          <h3 class="dev">
+          <p class="tea"></p>
+          <a class="trackref" href="http://www.e3mall.cn/tea/5-0-0-0-0-2-0-0-0-0-0.html" fro_id="6" target="_blank" name="sfbest_hp_hp_menu_category6-hot0">绿植系列</a></h3>
+          <ul class="subCat">
+          <li><a href="http://www.e3mall.cn/tea/168-0-0-0-0-2-0-0-0-0-0.html" name="sfbest_hp_hp_menu_category6-hot1 target=" _blank="">绿萝</a></li>
+          <li><a href="http://www.e3mall.cn/tea/32-0-0-0-0-2-0-0-0-0-0.html" name="sfbest_hp_hp_menu_category6-hot2 target=" _blank="">黑金刚</a></li>
+          <li><a href="http://www.e3mall.cn/tea/170-0-0-0-0-2-0-0-0-0-0.html" name="sfbest_hp_hp_menu_category6-hot3 target=" _blank="">摇钱树</a></li>
+          <li><a href="http://www.e3mall.cn/tea/38-0-0-0-0-2-0-0-0-0-0.html" name="sfbest_hp_hp_menu_category6-hot4 target=" _blank="">多肉</a></li>
+          </ul>
+          <s></s>
+          </span>
+          <div class="i-cm">
+          <div class="i-left">
+          <div class="cat-sort">
+          <dl>
+          <dt><strong><a name="sfbest_Uhead_Uhead_menu_category6-1" class="trackref" href="http://www.e3mall.cn/tea/34-0-0-0-0-2-0-0-0-0-0.html">休闲冲饮</a></strong></dt>
+          <dd>
+          <a name="sfbest_Uhead_Uhead_menu_category6-2" class="trackref" href="http://www.e3mall.cn/tea/168-0-0-0-0-2-0-0-0-0-0.html">蜂蜜</a>
+          <a name="sfbest_Uhead_Uhead_menu_category6-3" class="trackref" href="http://www.e3mall.cn/tea/170-0-0-0-0-2-0-0-0-0-0.html">麦片/粥</a>
+          <a name="sfbest_Uhead_Uhead_menu_category6-4" class="trackref" href="http://www.e3mall.cn/tea/165-0-0-0-0-2-0-0-0-0-0.html">蜜炼茶</a>
+          <a name="sfbest_Uhead_Uhead_menu_category6-5" class="trackref" href="http://www.e3mall.cn/tea/164-0-0-0-0-2-0-0-0-0-0.html">巧克力粉</a>
+          <a name="sfbest_Uhead_Uhead_menu_category6-6" class="trackref" href="http://www.e3mall.cn/tea/163-0-0-0-0-2-0-0-0-0-0.html">奶茶</a>
+          <a name="sfbest_Uhead_Uhead_menu_category6-7" class="trackref" href="http://www.e3mall.cn/tea/173-0-0-0-0-2-0-0-0-0-0.html">天然谷物粉</a>
+          <a style="color:#fa6400;" name="sfbest_Uhead_Uhead_menu_category6-8" href="http://www.e3mall.cn/productlist/search?inputBox=1&amp;categoryId=0&amp;keyword=%E9%BA%A6%E5%8D%A2%E5%8D%A1">麦卢卡</a>
+          <a style="color:#fa6400;" name="sfbest_Uhead_Uhead_menu_category6-9" href="http://www.e3mall.cn/productlist/search?inputBox=1&amp;categoryId=0&amp;keyword=%E6%9F%9A%E5%AD%90%E8%8C%B6">柚子茶</a>
+          <a style="color:#fa6400;" name="sfbest_Uhead_Uhead_menu_category6-10" href="http://www.e3mall.cn/productlist/search?inputBox=1&amp;categoryId=0&amp;keyword=%E7%BB%B4%E5%A4%9A%E9%BA%A6">维多麦</a>
+          <a style="color:#fa6400;" name="sfbest_Uhead_Uhead_menu_category6-11" href="http://www.e3mall.cn/productlist/search?inputBox=1&amp;categoryId=0&amp;keyword=%E6%9E%9C%E9%85%B1">果酱/涂抹酱</a>
+          </dd>
+          </dl>
+          <dl>
+          <dt><strong><a name="sfbest_Uhead_Uhead_menu_category6-10" class="trackref" href="http://www.e3mall.cn/tea/32-0-0-0-0-2-0-0-0-0-0.html">咖啡/伴侣</a></strong></dt>
+          <dd> <a name="sfbest_Uhead_Uhead_menu_category6-11" class="trackref" href="http://www.e3mall.cn/tea/159-0-0-0-0-2-0-0-0-0-0.html">速溶咖啡</a>
+          <a name="sfbest_Uhead_Uhead_menu_category6-12" class="trackref" href="http://www.e3mall.cn/tea/160-0-0-0-0-2-0-0-0-0-0.html">咖啡粉/豆</a>
+          <a name="sfbest_Uhead_Uhead_menu_category6-13" class="trackref" href="http://www.e3mall.cn/tea/161-0-0-0-0-2-0-0-0-0-0.html">调糖/伴侣</a>
+          </dd>
+          </dl>
+          <dl>
+          <dt><strong><a name="sfbest_Uhead_Uhead_menu_category6-15" class="trackref" href="http://www.e3mall.cn/tea/37-0-0-0-0-2-0-0-0-0-0.html">进口茶</a></strong></dt>
+          <dd>
+          <a name="sfbest_Uhead_Uhead_menu_category6-16" class="trackref" href="http://www.e3mall.cn/tea/179-0-0-0-0-2-0-0-0-0-0.html">红茶</a>
+          <a name="sfbest_Uhead_Uhead_menu_category6-17" class="trackref" href="http://www.e3mall.cn/tea/180-0-0-0-0-2-0-0-0-0-0.html">花茶/果茶</a>
+          <a name="sfbest_Uhead_Uhead_menu_category6-18" class="trackref" href="http://www.e3mall.cn/tea/181-0-0-0-0-2-0-0-0-0-0.html">其他进口茶</a>
+          <a style="color:#fa6400;" name="sfbest_Uhead_Uhead_menu_category6-19" class="trackref" href="http://www.e3mall.cn/productlist/search?inputBox=1&amp;categoryId=0&amp;keyword=%E6%96%AF%E9%87%8C%E5%85%B0%E5%8D%A1">斯里兰卡</a>
+          </dd>
+          </dl>
+          <dl>
+          <dt><strong><a name="sfbest_Uhead_Uhead_menu_category6-20" class="trackref" href="http://www.e3mall.cn/tea/38-0-0-0-0-2-0-0-0-0-0.html">国产茗茶</a></strong></dt>
+          <dd>
+          <a name="sfbest_Uhead_Uhead_menu_category6-21" class="trackref" href="http://www.e3mall.cn/tea/376-0-0-0-0-2-0-0-0-0-0.html">绿茶</a>
+          <a name="sfbest_Uhead_Uhead_menu_category6-22" class="trackref" href="http://www.e3mall.cn/tea/375-0-0-0-0-2-0-0-0-0-0.html">红茶</a>
+          <a name="sfbest_Uhead_Uhead_menu_category6-23" class="trackref" href="http://www.e3mall.cn/tea/478-0-0-0-0-2-0-0-0-0-0.html">白茶</a>
+          <a name="sfbest_Uhead_Uhead_menu_category6-24" class="trackref" href="http://www.e3mall.cn/tea/377-0-0-0-0-2-0-0-0-0-0.html">乌龙茶</a>
+          <a name="sfbest_Uhead_Uhead_menu_category6-25" class="trackref" href="http://www.e3mall.cn/tea/378-0-0-0-0-2-0-0-0-0-0.html">黑茶/普洱茶</a>
+          <a name="sfbest_Uhead_Uhead_menu_category6-26" class="trackref" href="http://www.e3mall.cn/tea/437-0-0-0-0-2-0-0-0-0-0.html">花草茶/果茶</a>
+          <a name="sfbest_Uhead_Uhead_menu_category6-27" class="trackref" href="http://www.e3mall.cn/tea/379-0-0-0-0-2-0-0-0-0-0.html">其他国产茗茶</a>
+          <a style="color:#fa6400;" name="sfbest_Uhead_Uhead_menu_category6-28" class="trackref" href="http://www.e3mall.cn/productlist/search?inputBox=1&amp;categoryId=0&amp;keyword=%E9%93%81%E8%A7%82%E9%9F%B3">铁观音</a>
+          <a style="color:#fa6400;" name="sfbest_Uhead_Uhead_menu_category6-29" class="trackref" href="http://www.e3mall.cn/productlist/search?inputBox=1&amp;categoryId=0&amp;keyword=%E5%A4%A7%E7%BA%A2%E8%A2%8D">大红袍</a>
+          </dd>
+          </dl>
+          </div>
+          <a name="sfbest_Uhead_Uhead_menu_category6-banner" class="trackref" href="http://www.e3mall.cn/html/activity/1472106644.html" target="_blank">
+          <div class="i-img"><img src="/images/html/1472521203.jpg"></div>
+          </a> </div>
+          <div class="i-right"> <span onclick="$('.item').removeClass('hover')" class="i-close"></span> </div>
+          </div>
+          </div>
           <%--<div class="item"> --%>
           <%--<span class="i-master">--%>
           <%--<h3 class="dev">--%>

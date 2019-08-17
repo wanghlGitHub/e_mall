@@ -62,7 +62,7 @@
 .bestbuy .bsmall{border-left:1px solid #e8e8e8; border-bottom:1px solid #e8e8e8; float:left; width:944px;}
 .bestbuy .bsmall li{position:relative;height:200px; float:left; overflow:hidden; width:25%;}
 .bestbuy .bsmall li img{ width:235px; height:200px; border-right:1px solid #e8e8e8;}
-.bestbuy .bprice{position:absolute; top:70px; color:#FF4700; left:20px; font: bold 16px/18px Microsoft YaHei;}
+.bestbuy .bprice{position:absolute; top:5px; color:#FF4700; left:0px; font: bold 16px/18px Microsoft YaHei;}
 .bestbuy .bprice span{ font-size:12px;}
 .bbtn{position:absolute;width:160px;height:24px; border-radius:2px;background:#76ac25;filter:alpha(opacity=95);-moz-opacity:0.95;opacity:0.95;top:260px;cursor:pointer; margin-left:38px; left:0;}
 .bbtn a{ width:60px; margin:0 auto;height:24px;display:block;background:url(../images/indexsprite.png) no-repeat -66px -177px;line-height:24px;font-family:Microsoft YaHei;font-size:12px;color:#fff;text-decoration:none; padding-left:20px;}
