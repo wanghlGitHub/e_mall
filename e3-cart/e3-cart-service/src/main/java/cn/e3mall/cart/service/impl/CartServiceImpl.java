@@ -22,7 +22,7 @@ import cn.e3mall.pojo.TbItem;
  * <p>Company: www.itcast.cn</p> 
  * @version 1.0
  */
-@Service
+@Service("cartService")
 public class CartServiceImpl implements CartService {
 
 	@Autowired

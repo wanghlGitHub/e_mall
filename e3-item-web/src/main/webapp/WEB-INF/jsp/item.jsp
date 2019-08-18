@@ -60,7 +60,7 @@
 <jsp:include page="commons/header.jsp" />
 <!-- header end -->
 <jsp:include page="commons/mainmenu.jsp" />
-<div class="linknav"><div class="breadcrumb"><strong><a href="/food/6-0-0-0-0-2-0-0-0-0-0.html">休闲食品</a></strong><span> &gt; <a href="/food/7321-0-0-0-0-2-0-0-0-0-0.html">月饼</a> &gt; <a href="/food/7331-0-0-0-0-2-0-0-0-0-0.html">其他月饼</a> &gt; <a href="http://www.e3mall.cn/pinpai/7331-10863.html">我是花吃</a> &gt; 我是花吃 我是花吃鲜花月饼团圆礼盒390g</span></div></div>
+<div class="linknav"><div class="breadcrumb"><strong><a href="/food/6-0-0-0-0-2-0-0-0-0-0.html">爱情玫瑰</a></strong><span> &gt; <a href="/food/7321-0-0-0-0-2-0-0-0-0-0.html">红色</a> &gt; <a href="/food/7331-0-0-0-0-2-0-0-0-0-0.html">99支</a> &gt; <a href="http://www.e3mall.cn/pinpai/7331-10863.html">99支精选</a> &gt; 99支精品玫瑰（粉玫和红玫瑰）满天星外围一圈</span></div></div>
 <div class="pWrap">
     <div class="productIntro">
         <div class="pItems">
@@ -108,7 +108,7 @@
                         </div>
                         <div class="pBtn" id="cart-add-btn-sf"><a onclick="cartAdd(${item.id}, 0, 1, 0, 1, this);"><b></b>加入购物车</a></div>
                         <div class="pBtn quickBuy" style="display: none;" id="quickBuy" title="快速下单，直达填写订单页面"><a onclick="oneKeyBuy(${item.id}, 0, 1, 0, 1, this);">一键购买</a></div>
-						<div class="yj_time" id="sendTime">预计发货时间：<br>2014-02-28 08:59</div>
+						<div class="yj_time" id="sendTime">预计发货时间：<br>2019-08-19 08:59</div>
 						<div class="phone_client phone_border"><div id="phone_time">扫描下载客户端<br><em>先摇券 后买单</em></div>
 							<!--手机二维码显示层-->
 							<div class="phone_clientCode" style="display:none;">
@@ -204,10 +204,10 @@
 					     		                </div>
                 <div class="pdetail">
                     <ul>
-                                                <li>品牌：<span><a href="http://www.e3mall.cn/pinpai/7331-10863.html" title="我是花吃" target="_blank">我是花吃</a></span></li>
+                                                <li>品牌：<span><a href="http://www.e3mall.cn/pinpai/7331-10863.html" title="我是花吃" target="_blank">星愿鲜花</a></span></li>
                                                 <li>产地：<span><a href="/food/7331-0-45-0-0-2-0-0-0-0-0.html" title="中国" target="_blank">中国</a></span>
                         </li>
-					                                                    <li>重量：1.4kg （含包装）</li>
+					                                                    <li>重量：1.0kg （含包装）</li>
                                                 <li>商品编号：${item.id }</li>
                         			<li class="card-pay">
 			<span class="card-pay-left">优选卡</span>
@@ -246,9 +246,9 @@
         <div class="clear" id="flow-layer-sf"></div>
 		<div class="pCont cpjs_box" id="div-detail">
 			<ul class="cpjs_list">
-				<li><strong>保质期：</strong>60（天）</li>
-				<li><strong>重量(含包装)：</strong>1.4（kg）</li>
-				<li><strong>销售单位：</strong>盒</li>
+				<li><strong>保质期：</strong>15（天）</li>
+				<li><strong>重量(含包装)：</strong>1.0（kg）</li>
+				<li><strong>销售单位：</strong>捧</li>
 				<li><strong>产地：</strong>中国</li>
 			</ul>
 			<div
@@ -303,21 +303,21 @@
     </div>
     <div class="left-box">
 			<div id="brandCon" class="catlist" style="">
-				<h2 class="t">相关品牌</h2>
+				<h2 class="t">相关鲜花</h2>
 				<ul class="pClass">
 					<li><a target="_blank"
 						href="http://www.e3mall.cn/pinpai/7331-10949.html#sfbest_item_1600229585_brand_1"
-						title="半岛月饼">半岛月饼</a><a target="_blank"
+						title="半岛月饼">七夕</a><a target="_blank"
 						href="http://www.e3mall.cn/pinpai/7331-3342.html#sfbest_item_1600229585_brand_2"
-						title="元朗荣华">元朗荣华</a><a target="_blank"
+						title="元朗荣华">送女友</a><a target="_blank"
 						href="http://www.e3mall.cn/pinpai/7331-2241.html#sfbest_item_1600229585_brand_3"
-						title="奇华">奇华</a><a target="_blank"
+						title="奇华">送长辈</a><a target="_blank"
 						href="http://www.e3mall.cn/pinpai/7331-6626.html#sfbest_item_1600229585_brand_4"
-						title="迪士尼">迪士尼</a><a target="_blank"
+						title="迪士尼">探望</a><a target="_blank"
 						href="http://www.e3mall.cn/pinpai/7331-10805.html#sfbest_item_1600229585_brand_5"
-						title="宜芝多">宜芝多</a><a target="_blank"
+						title="宜芝多">开业</a><a target="_blank"
 						href="http://www.e3mall.cn/pinpai/7331-9347.html#sfbest_item_1600229585_brand_6"
-						title="日田食品">日田食品</a><a target="_blank"
+						title="日田食品">装饰</a><a target="_blank"
 						href="http://www.e3mall.cn/pinpai/7331-10765.html#sfbest_item_1600229585_brand_7"
 						title="欧美香" style="display: none;">欧美香</a><a target="_blank"
 						href="http://www.e3mall.cn/pinpai/7331-10853.html#sfbest_item_1600229585_brand_8"

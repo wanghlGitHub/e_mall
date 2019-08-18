@@ -25,7 +25,7 @@ public class ContentCatController {
 
 	@Autowired
 	private ContentCategoryService contentCategoryService;
-	
+
 	@RequestMapping("/content/category/list")
 	@ResponseBody
 	public List<EasyUITreeNode> getContentCatList(
@@ -33,7 +33,7 @@ public class ContentCatController {
 		List<EasyUITreeNode> list = contentCategoryService.getContentCatList(parentId);
 		return list;
 	}
-	
+
 	/**
 	 * 添加分类节点
 	 */
@@ -43,6 +43,35 @@ public class ContentCatController {
 		//调用服务添加节点
 		E3Result e3Result = contentCategoryService.addContentCategory(parentId, name);
 		return e3Result;
+	}
+
+	/**
+	 * @Decsription: 修改节点
+	 * @Param:[parentId, name]
+	 * @Author:heliang.wang
+	 * @Date: 2018/8/6下午2:46
+	 * @return:cn.e3mall.common.utils.E3Result
+	 */
+	@RequestMapping(value="/content/category/update", method=RequestMethod.POST)
+	@ResponseBody
+	public E3Result updateContentCategory(Long id, String name) {
+		//调用服务修改节点
+		E3Result e3Result = contentCategoryService.addContentCategory(id, name);
+		return e3Result;
+	}
+
+	/**
+	 * @Decsription: 删除节点
+	 * @Param:[id]
+	 * @Author:heliang.wang
+	 * @Date: 2018/8/6下午2:54
+	 * @return:cn.e3mall.common.utils.E3Result
+	 */
+	@RequestMapping("/content/category/delete")
+	@ResponseBody
+	public E3Result deleteContentCategory(Long id){
+		E3Result result = contentCategoryService.deleteContentCategory(id);
+		return result;
 	}
 	
 	

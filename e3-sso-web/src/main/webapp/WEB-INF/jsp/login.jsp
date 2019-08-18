@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
-    <title>登录淘淘</title>
+    <title>登录星愿花店</title>
        <link rel="stylesheet" type="text/css" href="/css/jquery.alerts.css" />
 <link rel="stylesheet" type="text/css" href="/css/headerfooterindex.css" />
 <link rel="stylesheet" type="text/css" href="/css/login.css" />
@@ -23,7 +23,8 @@
 	<!-- login_main -->
 	<div class="login_main clear">
 		<div class="pic">
-			<a href="http://www.e3mall.cn/html/activity/1472720729.html" target="_blank"><img src="/images/06f42c372620f92b40da77a8b23cdf7f.png"></a>
+			<a href="http://www.e3mall.cn/html/activity/1472720729.html" target="_blank">
+				<img src="/images/login.jpg"></a>
 		</div>
 		<!-- login -->
 		<div class="login">

@@ -170,4 +170,32 @@ public class ItemServiceImpl implements ItemService {
         return itemDesc;
     }
 
+    @Override
+    public E3Result updateItem(TbItem item, String desc) {
+        item.setUpdated(new Date());
+        //向商品表插入数据
+        itemMapper.updateByPrimaryKeySelective(item);
+        //创建一个商品描述表对应的pojo对象。
+        TbItemDesc itemDesc = new TbItemDesc();
+        //补全属性
+        itemDesc.setItemId(item.getId());
+        itemDesc.setItemDesc(desc);
+        itemDesc.setUpdated(new Date());
+        //更新商品描述表
+        itemDescMapper.updateByPrimaryKeySelective(itemDesc);
+        //返回成功
+        return E3Result.ok();
+    }
+
+    @Override
+    public E3Result deleteItem(String ids,int state) {
+        String[] split = ids.split(",");
+        for(String id : split){
+            TbItem tbItem = itemMapper.selectByPrimaryKey(Long.valueOf(id));
+            tbItem.setStatus((byte) state);
+            itemMapper.updateByPrimaryKeySelective(tbItem);
+        }
+        return E3Result.ok();
+    }
+
 }

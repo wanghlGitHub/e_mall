@@ -2,15 +2,14 @@ package cn.e3mall.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import cn.e3mall.common.pojo.EasyUIDataGridResult;
 import cn.e3mall.common.utils.E3Result;
 import cn.e3mall.pojo.TbItem;
 import cn.e3mall.service.ItemService;
+
+import java.util.Map;
 
 /**
  * 商品管理Controller
@@ -49,5 +48,31 @@ public class ItemController {
 		E3Result result = itemService.addItem(item, desc);
 		return result;
 	}
-	
+
+	/**
+	 * 商品修改功能
+	 */
+	@RequestMapping(value="/rest/item/update", method=RequestMethod.POST)
+	@ResponseBody
+	public E3Result updateItem(TbItem item, String desc) {
+		E3Result result = itemService.updateItem(item, desc);
+		return result;
+	}
+
+	/**
+	 * @Decsription: 更新商品状态    状态：1-正常，2-下架，3-删除，4-上架
+	 * @Param:[ids]
+	 * @Author:heliang.wang
+	 * @Date: 2018/8/5下午4:50
+	 * @return:cn.e3mall.common.utils.E3Result
+	 */
+	@RequestMapping(value="/rest/item/updateState", method=RequestMethod.POST)
+	@ResponseBody
+	public E3Result deleteItem(@RequestParam Map<String,String> map) {
+		String ids = map.get("ids");
+		int state = Integer.valueOf(map.get("state"));
+		E3Result result = itemService.deleteItem(ids,state);
+		return result;
+	}
+
 }

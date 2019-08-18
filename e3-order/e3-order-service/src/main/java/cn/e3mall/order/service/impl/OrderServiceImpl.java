@@ -25,7 +25,7 @@ import cn.e3mall.pojo.TbOrderShipping;
  * <p>Company: www.itcast.cn</p> 
  * @version 1.0
  */
-@Service
+@Service("orderService")
 public class OrderServiceImpl implements OrderService {
 
 	@Autowired
