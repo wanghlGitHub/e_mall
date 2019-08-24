@@ -42,12 +42,12 @@
 		<input type="hidden" name="orderItems[${status.index}].picPath" value="${cart.image}"/>
 	</c:forEach>
 	<input type="hidden" name="payment" value="<fmt:formatNumber groupingUsed="false" maxFractionDigits="2" minFractionDigits="2" value="${totalPrice/100 }"/>"/>
-	<input type="hidden" name="orderShipping.receiverName" value="入云龙"/>
+	<input type="hidden" name="orderShipping.receiverName" value="张三"/>
 	<input type="hidden" name="orderShipping.receiverMobile" value="15800888888"/>
 	<input type="hidden" name="orderShipping.receiverState" value="北京"/>
 	<input type="hidden" name="orderShipping.receiverCity" value="北京"/>
 	<input type="hidden" name="orderShipping.receiverDistrict" value="昌平区"/>
-	<input type="hidden" name="orderShipping.receiverAddress" value="北京市昌平区北七家镇 修正大厦"/>
+	<input type="hidden" name="orderShipping.receiverAddress" value="北京市通州区马驹桥镇 幸福大厦"/>
 </form>
   <h3 class="orderHd">填写并核对订单信息</h3>
   <div id="userAddrId" class="orderTbody ">
@@ -55,7 +55,7 @@
     <div class="orderItem">
         <div class="orderCurr" id="userAddress" style="display:block;">
           <ul>
-            <li>入云龙&nbsp;&nbsp;&nbsp;&nbsp;15800888888&nbsp;&nbsp;&nbsp;&nbsp;北京市&nbsp;&nbsp;昌平区&nbsp;&nbsp;北七家镇 修正大厦</li>
+            <li>张三&nbsp;&nbsp;&nbsp;&nbsp;15800888888&nbsp;&nbsp;&nbsp;&nbsp;北京市&nbsp;&nbsp;通州区&nbsp;&nbsp;马驹桥镇 幸福大厦</li>
           </ul>
         </div>
     </div>
@@ -136,7 +136,7 @@
 					<div class="pItem pPromotion">¥0</div>
 					<div class="pItem pInventory" pid="57111">现货</div>
 					<div class="pItem pQuantity">${cart.num}</div>
-					<div class="pItem pWeight">0.72kg</div>
+					<div class="pItem pWeight">1.1kg</div>
 					<div class="pItem pSubtotal">¥${cart.price / 100 * cart.num}</div> 
 					<span class="clear"></span>
 				</div>
@@ -153,7 +153,7 @@
 
     <div id="ordercoupon1" class="ordercoupon"><span id="ordercoupon"></span></div>
     <div class="order-info" style="z-index: -1;">
-      <div class="orderWeight fl">商品总重量：0.72kg（含包装）</div>
+      <div class="orderWeight fl">商品总重量：1.1kg（含包装）</div>
       <div id="priceitems" class="priceitem">
         <dl class="fl">
           <dd>
